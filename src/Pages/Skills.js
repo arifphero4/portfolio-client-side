@@ -8,7 +8,7 @@ const Skills = () => {
       .then((data) => setSkill(data));
   }, []);
   return (
-    <div className="bg-gray-800 py-8" style={{ minHeight: "90vh" }}>
+    <div id="skills" className="bg-gray-800 py-8" style={{ minHeight: "90vh" }}>
       <div className="container mx-auto py-5 text-center border-b-2 border-yellow-500 px-4">
         <h1 className="text-gray-100 text-3xl lg:text-6xl font-bold">
           My Professional <span className="text-yellow-500">Skills</span>

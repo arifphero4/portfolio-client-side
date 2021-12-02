@@ -4,14 +4,14 @@ import Project from "./Project";
 const Portfolios = () => {
   const [items, setItems] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/folioItems/")
+    fetch("https://fierce-citadel-24290.herokuapp.com/folioItems/")
       .then((res) => res.json())
       .then((data) => setItems(data))
       .catch((err) => console.log(err));
   }, []);
   console.log(items);
   return (
-    <div className="bg-gray-900">
+    <div id="portfolio" className="bg-gray-900">
       <div className="container mx-auto py-5 text-center border-b-2 border-yellow-500 px-4">
         <h1 className="text-gray-100 text-3xl lg:text-6xl font-bold">
           Some Of My <span className="text-yellow-500">Projects</span>

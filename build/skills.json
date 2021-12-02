@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "HTML",
+    "img": "https://heuristic-bose-fe2c35.netlify.app/images/html.png"
+  },
+  {
+    "id": 2,
+    "name": "CSS",
+    "img": "https://heuristic-bose-fe2c35.netlify.app/images/css.png"
+  },
+  {
+    "id": 3,
+    "name": "BOOTSTRAP",
+    "img": "https://heuristic-bose-fe2c35.netlify.app/images/bootstrap.png"
+  },
+  {
+    "id": 4,
+    "name": "TAILWIND CSS",
+    "img": "https://heuristic-bose-fe2c35.netlify.app/images/tailwind.png"
+  },
+  {
+    "id": 5,
+    "name": "MATERIAL UI",
+    "img": "https://heuristic-bose-fe2c35.netlify.app/images/metarial-ui.png"
+  },
+  {
+    "id": 6,
+    "name": "JAVASCRIPT",
+    "img": "https://heuristic-bose-fe2c35.netlify.app/images/javascript.png"
+  },
+  {
+    "id": 7,
+    "name": "REACT JS",
+    "img": "https://heuristic-bose-fe2c35.netlify.app/images/reactjs.png"
+  },
+  {
+    "id": 8,
+    "name": "FIREBASE",
+    "img": "https://heuristic-bose-fe2c35.netlify.app/images/firebase.png"
+  },
+  {
+    "id": 9,
+    "name": "MONGO DB",
+    "img": "https://heuristic-bose-fe2c35.netlify.app/images/mongodb.png"
+  },
+  {
+    "id": 10,
+    "name": "NODE JS",
+    "img": "https://heuristic-bose-fe2c35.netlify.app/images/nodejs.png"
+  },
+  {
+    "id": 11,
+    "name": "EXPRESS JS",
+    "img": "https://heuristic-bose-fe2c35.netlify.app/images/express-js.png"
+  },
+  {
+    "id": 12,
+    "name": "GITHUB",
+    "img": "https://heuristic-bose-fe2c35.netlify.app/images/github.png"
+  }
+]

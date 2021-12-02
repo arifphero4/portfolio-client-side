@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import "./App.css";
-import About from './Pages/About';
+import About from "./Pages/About";
+import Contact from "./Pages/Contact";
 import Home from "./Pages/Home";
 import Not from "./Pages/Not";
 import DetailsProject from "./Pages/Portfolio/DetailsProject";
@@ -16,21 +17,29 @@ function App() {
         <Header />
         <Switch>
           <Route exact path="/">
-            <Home />
-            <Skills />
-            <Portfolios />
+              <Home />
+              <Skills />
+              <Portfolios />
+          </Route>
+          <Route path="/home">
+              <Home />
+              <Skills />
+              <Portfolios />
           </Route>
           <Route path="/details/:id">
             <DetailsProject />
           </Route>
           <Route path="/about">
-            <About/>
+            <About />
+          </Route>
+          <Route path="/contact">
+            <Contact />
           </Route>
           <Route path="*">
-              <Not/>
+            <Not />
           </Route>
         </Switch>
-        <Footer/>
+        <Footer />
       </BrowserRouter>
     </div>
   );
