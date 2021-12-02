@@ -24,7 +24,7 @@ const Header = () => {
     <div className="bg-gray-800 relative header lg:fixed w-full py-3 lg:py-0">
       <div className="container mx-auto px-4 flex items-center justify-between">
         <Link path="/" className="text-3xl font-bold text-gray-100">
-          Arif Hasan
+          Arif Ahammad
         </Link>
         <span
           onClick={() => setOpen(!open)}
