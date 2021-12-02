@@ -25,6 +25,7 @@ function App() {
               <Home />
               <Skills />
               <Portfolios />
+              <Contact/>
           </Route>
           <Route path="/details/:id">
             <DetailsProject />
