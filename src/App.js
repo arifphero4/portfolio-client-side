@@ -20,6 +20,7 @@ function App() {
               <Home />
               <Skills />
               <Portfolios />
+              <Contact/>
           </Route>
           <Route path="/home">
               <Home />
