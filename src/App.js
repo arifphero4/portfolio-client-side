@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import "./App.css";
 import About from "./Pages/About";
+import Blog from "./Pages/Blog";
 import Contact from "./Pages/Contact";
 import Home from "./Pages/Home";
 import Not from "./Pages/Not";
@@ -36,6 +37,9 @@ function App() {
           </Route>
           <Route path="/contact">
             <Contact />
+          </Route>
+          <Route path="/blog">
+            <Blog />
           </Route>
           <Route path="*">
             <Not />

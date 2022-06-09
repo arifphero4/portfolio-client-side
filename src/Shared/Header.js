@@ -87,7 +87,7 @@ const Header = () => {
               className="flex items-center mr-6 text-lg text text-gray-100 py-5  font-bold"
             >
               <FaBlogger className="mr-2" />
-              Blog
+              <Link to="/blog">Blog</Link>
             </li>
           </ul>
         </div>
