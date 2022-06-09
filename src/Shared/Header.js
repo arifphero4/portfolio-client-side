@@ -72,22 +72,22 @@ const Header = () => {
               onClick={() => setOpen(!open)}
               className="flex items-center mr-6 text-lg text text-gray-100 py-5  font-bold"
             >
-              <FaPeopleCarry className="mr-2" />
-              <Link to="/about">About</Link>
+             
+              <Link to="/about"> <FaPeopleCarry className="mr-2" /> About</Link>
             </li>
             <li
               onClick={() => setOpen(!open)}
               className="flex items-center mr-6 text-lg text text-gray-100 py-5  font-bold"
-            >
+            ><Link to="/contact">
               <FaPeopleCarry className="mr-2" />
-              <Link to="/contact">Contact</Link>
+              Contact</Link>
             </li>
             <li
               onClick={() => setOpen(!open)}
               className="flex items-center mr-6 text-lg text text-gray-100 py-5  font-bold"
-            >
+            ><Link to="/blog">
               <FaBlogger className="mr-2" />
-              <Link to="/blog">Blog</Link>
+              Blog</Link>
             </li>
           </ul>
         </div>
