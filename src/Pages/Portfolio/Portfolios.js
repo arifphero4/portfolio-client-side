@@ -4,7 +4,7 @@ import Project from "./Project";
 const Portfolios = () => {
   const [items, setItems] = useState([]);
   useEffect(() => {
-    fetch("https://fierce-citadel-24290.herokuapp.com/folioItems/")
+    fetch("http://localhost:5000/items")
       .then((res) => res.json())
       .then((data) => setItems(data))
       .catch((err) => console.log(err));

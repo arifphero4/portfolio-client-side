@@ -5,7 +5,7 @@ const DetailsProject = () => {
   const { id } = useParams();
   const [item, setItem] = useState({});
   useEffect(() => {
-    fetch(`http://localhost:5000/folioItems/${id}`)
+    fetch(`http://localhost:5000/items/${id}`)
       .then((res) => res.json())
       .then((data) => setItem(data))
       .catch((err) => console.log(err));
